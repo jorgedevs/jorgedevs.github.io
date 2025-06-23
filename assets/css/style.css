@@ -9,14 +9,14 @@ body {
 .projects-list {
   display: flex;
   flex-direction: column;
-  gap: 12px; /* space between projects */
+  gap: 12px;
   margin: 10px 0;
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  gap: 0px; /* small space between image, title, and description */
+  gap: 0px;
 }
 
 .project strong {
@@ -25,7 +25,7 @@ body {
 }
 
 .project p {
-  margin-top: 8px; /* minimal space above paragraph */
+  margin-top: 8px;
 }
 
 .container {
