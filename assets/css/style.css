@@ -6,6 +6,28 @@ body {
   padding: 0;
 }
 
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* space between projects */
+  margin: 10px 0;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* small space between image, title, and description */
+}
+
+.project strong {
+  font-size: 1.1em;
+  margin-top: 12px;
+}
+
+.project p {
+  margin-top: 8px; /* minimal space above paragraph */
+}
+
 .container {
   max-width: 800px;
   margin: 40px auto;
