@@ -26,6 +26,7 @@ body {
 
 .project p {
   margin-top: 8px;
+  margin-bottom: 0px;
 }
 
 .two-columns {
@@ -73,6 +74,13 @@ body a {
 
 body a:hover {
   text-decoration: underline;
+}
+
+.project-separator {
+  border: none;
+  border-top: 1px solid #58a6ff;
+  margin: 24px 0;
+  width: 100%;
 }
 
 .social-icons {
