@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jorge Ramirez | Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <div class="container">
@@ -12,16 +13,33 @@
       <h1>Jorge Ramirez</h1>
       <nav>
         <a href="/">Home</a>
-        <a href="/projects.html">Projects</a>
+        <a href="/projects.html">Portfolio</a>
         <a href="/about.html">About</a>
       </nav>
     </header>
     <main>
-      <div>
-        <p>Welcome to my developer portfolio. I'm a .NET front-end specialist based in Richmond, BC.</p>
-    </div>
-  </main>
-  <footer>© 2025 Jorge Ramirez</footer>
+      <div class="two-columns">
+        <div>
+          <!-- Left column content -->
+          <img src="/assets/img/jorgedevs-profile.jpg" style="width: 100%;">
+        </div>
+        <div class="vertical-stacklayout">
+          <!-- Right column content -->
+           <h1>About Me</h1>
+          <p>I'm a .NET front-end specialist based in Richmond, BC, with a passion for building interactive and user-friendly applications.<br/><br/>
+          In my spare time, I enjoy contributing to open-source projects and exploring new technologies.</p>
+
+          <div class="social-icons">
+            <a href="https://github.com/jorgedevs" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/jorgedevs" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://youtube.com/@jorgedevs" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://bsky.app/profile/jorgedevs.bsky.social" target="_blank" aria-label="BlueSky"><i class="fas fa-cloud"></i></a>
+            <a href="mailto:ramirez.jorgea@outlook.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>© 2025 Jorge Ramirez</footer>
   </div>
 </body>
 </html>

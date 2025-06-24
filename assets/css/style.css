@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.projects-list {
+.vertical-stacklayout {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -26,6 +26,20 @@ body {
 
 .project p {
   margin-top: 8px;
+}
+
+.two-columns {
+  display: flex;
+  margin: 20px 10px;
+  gap: 24px; /* space between columns */
+}
+
+.two-columns > div:first-child {
+  flex: 1;
+}
+
+.two-columns > div:last-child {
+  flex: 2;
 }
 
 .container {
@@ -50,4 +64,21 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0;
+  justify-content: left;
+}
+
+.social-icons a {
+  color: #58a6ff;
+  font-size: 1.5em;
+  transition: color 0.2s;
+}
+
+.social-icons a:hover {
+  color: #1f6feb;
 }
