@@ -5,21 +5,21 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!toggleBtn) return;
 
   // Load theme from localStorage if available
-  if (localStorage.getItem('theme') === 'light') {
-    body.classList.add('light');
-    toggleBtn.textContent = '🌙';
-  } else {
+  if (localStorage.getItem('theme') === 'dark') {
+    body.classList.add('dark');
     toggleBtn.textContent = '☀️';
+  } else {
+    toggleBtn.textContent = '🌙';
   }
 
   toggleBtn.addEventListener('click', () => {
-    body.classList.toggle('light');
-    if (body.classList.contains('light')) {
-      localStorage.setItem('theme', 'light');
-      toggleBtn.textContent = '🌙';
-    } else {
+    body.classList.toggle('dark');
+    if (body.classList.contains('dark')) {
       localStorage.setItem('theme', 'dark');
       toggleBtn.textContent = '☀️';
+    } else {
+      localStorage.setItem('theme', 'light');
+      toggleBtn.textContent = '🌙';
     }
   });
 });
