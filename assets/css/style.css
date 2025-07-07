@@ -104,6 +104,18 @@ nav a:hover {
   margin: 20px 0;
 }
 
+.screenshot {
+  width: 90%;
+  margin: 10px auto auto auto;
+  display: block;
+}
+
+.home-text {
+  width: 85%; 
+  margin: 20px auto; 
+  display: block;
+}
+
 .project {
   display: flex;
   flex-direction: column;
